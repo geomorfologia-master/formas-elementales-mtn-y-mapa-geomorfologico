@@ -1,1 +1,121 @@
-# formas-elementales-mtn-y-mapa-geomorfologico
+Prácticas de aula 4 (PA04). Formas elementales en el mapa topográfico,
+comparación con el mapa geomorfológico<small><br>Geomorfología
+(GEO-114)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
+2024-02</small>
+================
+El Tali
+2024-09-09
+
+Versión HTML (quizá más legible),
+[aquí](https://geomorfologia-master.github.io/formas-elementales-mtn-y-mapa-geomorfologico/README.html)
+
+# Fecha/hora de entrega
+
+**9 de septiembre de 2024, 7:59 pm.**
+
+# Introducción
+
+En esta práctica, exploraremos cómo identificar y analizar formas
+elementales del relieve en mapas topográficos de la República Dominicana
+y compararlas con mapas geomorfológicos disponibles en el [Servicio
+Geológico Nacional
+(SGN)](https://sgn.gob.do/index.php/geologia-y-tematicos/info-geomorfologia).
+La práctica busca integrar el análisis morfométrico y territorial,
+aplicando conceptos geomorfológicos fundamentales y técnicas de medición
+del terreno.
+
+# Objetivo
+
+El objetivo de esta práctica es que el estudiante aprenda a identificar
+formas elementales del terreno en mapas topográficos y a realizar una
+comparación cualitativa con mapas geomorfológicos, desarrollando
+habilidades de análisis morfométrico y aplicando técnicas de medición de
+pendiente.
+
+# Materiales y Métodos
+
+Cada estudiante deberá:
+
+1.  Seleccionar una hoja del Mapa Topográfico Nacional escala 1:50,000
+    de la República Dominicana correspondiente a un área donde también
+    exista un mapa geomorfológico en la [página del
+    SGN](https://sgn.gob.do/index.php/geologia-y-tematicos/info-geomorfologia).
+
+2.  Identificar cinco formas elementales del tipo “geomórfonos” o
+    “geomórfonas” (según Jasiewicz y Stepinski, 2013). Para la
+    identificación, se puede utilizar la página de ayuda de la
+    herramienta `r.geomorphon` de [GRASS
+    GIS](https://grass.osgeo.org/grass84/manuals/r.geomorphon.html).
+
+3.  Dibujar a lápiz, en cada forma identificada, una línea recta de
+    máximo 1 km. Dividir esta línea en cuatro segmentos, calculando la
+    pendiente promedio en grados y en porcentaje para cada uno.
+
+4.  Redactar cinco párrafos, uno para cada forma identificada, que
+    incluya:
+
+    - Descripción morfométrica de la forma.
+    - Referencias territoriales.
+    - Comparación con el mapa geomorfológico correspondiente,
+      identificando similitudes, diferencias y otras observaciones
+      relevantes.
+
+# Procedimiento
+
+1.  **Selección de la Hoja Topográfica:**
+
+    - Selecciona una hoja del Mapa Topográfico Nacional en escala
+      1:50,000 de entre las provistas por el profesor
+    - Asegúrate que dicha hoja tiene su correspondiente mapa
+      geomorfológico en el [sitio web del
+      SGN](https://sgn.gob.do/index.php/geologia-y-tematicos/info-geomorfologia).
+
+2.  **Identificación de Formas Elementales:**
+
+    - Usando la lista de 10 de geomórfonos de Jasiewicz y Stepinski
+      (2013), identifica cinco formas elementales en la hoja topográfica
+      seleccionada. La [página de ayuda del complemento `r.geomorphon`
+      de GRASS
+      GIS](https://grass.osgeo.org/grass84/manuals/r.geomorphon.html),
+      te servirá para saber cuáles son las 10 formas elementales.
+
+3.  **Medición de Pendientes:**
+
+    - Dibuja a lápiz una línea recta de máximo 1 km sobre cada forma
+      elemental identificada.
+    - Divide cada línea en cuatro segmentos, marcando tres puntos
+      intermedios.
+    - Calcula la pendiente promedio en grados y en porcentaje para cada
+      uno de los cuatro segmentos. Usa la fórmula de pendiente:
+
+    $$
+    \text{Pendiente (\%)} = \left( \frac{\text{Desnivel (m)}}{\text{Distancia Horizontal (m)}} \right) \times 100
+    $$
+
+    $$
+    \text{Pendiente (°)} = \arctan\left(\frac{\text{Desnivel (m)}}{\text{Distancia Horizontal (m)}}\right)
+    $$
+
+4.  **Redacción del Informe:**
+
+    - Redacta un párrafo para cada forma identificada (cinco párrafos en
+      total), describiendo sus características morfométricas y
+      territoriales, e incluye un análisis comparativo con el mapa
+      geomorfológico correspondiente.
+
+# Evaluación
+
+La práctica será evaluada de acuerdo a los siguientes criterios:
+
+- Precisión en la identificación de formas elementales (40%).
+- Exactitud en los cálculos de pendiente (30%).
+- Claridad y profundidad del análisis comparativo en los párrafos
+  redactados (30%).
+
+# Referencias
+
+- Jasiewicz, J., Stepinski, T., 2013, Geomorphons - a pattern
+  recognition approach to classification and mapping of landforms,
+  Geomorphology, vol. 182, 147-156 (DOI: 10.1016/j.geomorph.2012.11.005)
+- GRASS GIS. (n.d.).
+  [r.geomorphons](https://grass.osgeo.org/grass84/manuals/r.geomorphon.html).
